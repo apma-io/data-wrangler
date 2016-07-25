@@ -1,0 +1,19 @@
+{
+  "name": "data-wrangler-iv",
+  "version": "0.0.0",
+  "private": true,
+  "bin": {
+    "data-wrangler": "./bin/wrangler-cli.js"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "node-uuid": "*",
+    "handlebars": "*",
+    "mkdirp": "*",
+    "prompt": "*",
+    "node-dbi": "0.7.1",
+    "node-mysql": "*",
+    "mysql": "*",
+    "async": "*"    
+  }
+}
